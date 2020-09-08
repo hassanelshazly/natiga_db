@@ -29,7 +29,7 @@ s.mount('http://', HTTPAdapter(max_retries=retries))
 start_seat = 0
 end_seat = 10000000
 
-file = open("out.txt", "a")
+file = open("../raw_data/out.txt", "a")
 # print_headers(file)
 
 for k in range(start_seat, end_seat):
