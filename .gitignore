@@ -1,0 +1,6 @@
+# Files ignored by git
+
+csv/
+raw_data/
+database/
+*_pycache__/
